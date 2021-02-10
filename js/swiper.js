@@ -1,12 +1,14 @@
 new Swiper('.image-slider', {
     pagination: {
         el: '.swiper-pagination',
-        clickable: true
+        clickable: true,
+        grabCursor: true,
     }
 }),
 
 new Swiper('.comm-slider', {
     slidesPerView: 2,
+    grabCursor: true,
     breakpoints: {
         1920: {
             slidesPerView: 2,
